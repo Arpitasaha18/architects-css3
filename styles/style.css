@@ -324,7 +324,7 @@ main{
     font-size: 35px;
     color: #424242;
 }
-.reward-name{
+.reward-name, .about-architect p, .contact p{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -369,6 +369,58 @@ main{
     mix-blend-mode: luminosity;
 }
 
+/* About Section */
+.about{
+    height: 450px;
+    display: flex;
+    margin-bottom: 130px;
+    background-color: #F4F4F4;
+    padding: 50px 70px 50px 100px;
+    margin-top: 30px;
+    gap: 65px;
+}
+.about-architect{
+    width: 400px;
+    height: 300px;
+}
+.about-title{
+    font-family: 'Work Sans';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 43px;
+    color: #131313;    
+    margin-bottom: 20px;
+    border-bottom: 3px solid #FF900E;
+    
+    
+}
+.about-architect .link-up a{
+    justify-content: space-between;
+    color: #424242;
+    margin-left: 10px;
+    
+}
+.about-architect .link-up a:hover{
+    color: #FF900E;
+   
+}
+
+.services ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #727272;
+    
+}
+
+.contact{
+
+}
 /* footer */
 .footer{
     margin: auto;
@@ -390,3 +442,4 @@ main{
     text-align: center;
     color: #424242;
 }
+
